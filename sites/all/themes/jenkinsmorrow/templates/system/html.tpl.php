@@ -46,6 +46,8 @@
     <title><?php print $head_title; ?></title>
     <?php print $styles; ?>
     <?php print $scripts; ?>
+    <script src="https://use.typekit.net/yhh0mdt.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
     <!--[if lt IE 9]>
     <script src="<?php print $GLOBALS['base_url'] . '/' . drupal_get_path('theme', 'novel'); ?>/htmlshim/dist/html5shiv.js"></script>
     <![endif]-->

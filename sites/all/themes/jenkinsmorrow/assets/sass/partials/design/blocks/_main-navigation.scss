@@ -25,7 +25,11 @@ nav {
         transition:all .5s ease;
         -webkit-transition:all .5s ease;
         width: 200px;
-        box-shadow: 1px 1px 4px rgba(0,0,0,.5);
+        box-shadow: 1px 1px 4px rgba(0,0,0,.25);
+        @include border-radius(3px);
+        a {
+          padding:0;
+        }
         li {
           padding: .5em 1.25em ;
         }
@@ -33,7 +37,7 @@ nav {
       li:hover {
         ul {
           z-index: 99;
-          background-color: darken($color-one, 5%);
+          background-color: darken($site-bg, 5%);
           top:110%;
           left: 0;
           opacity: 1;
@@ -41,7 +45,7 @@ nav {
           li {
             display: block;
             &:hover {
-              background-color: darken($color-one, 10%);
+              background-color: darken($site-bg, 10%);
             }
           }
         }
@@ -57,11 +61,11 @@ nav {
     margin: 0;
     position: relative;
     @include breakpoint($tablet, $no-query: '.no-mq') {
-      padding: .5em .4em;
+      padding: 0 .4em;
       font-size: 90%;
     }
     @include breakpoint($desktop) {
-      padding: .5em .75em;
+      padding: 0 .75em;
       font-size: 100%;
     }
     @include breakpoint($phone) {
@@ -84,15 +88,20 @@ nav {
     text-transform: uppercase;
    // font-weight: 700;
     color: #474747;
+    display: block;
+    @include breakpoint($tablet, $no-query: '.no-mq') {
+      padding: .5em 0;
+    }
     &:hover {
       color:#111;
     }
-    &.active {
-      @include breakpoint($tablet, $no-query: '.no-mq') {
-        border-bottom: 2px solid #000;
-        padding-bottom: 1em;
-      }
-    }
+    // &.active {
+    //   @include breakpoint($tablet, $no-query: '.no-mq') {
+    //     border-bottom: 2px solid #000;
+    //     padding-bottom: 1em;
+
+    //   }
+    // }
   }
 }
 
