@@ -1,0 +1,14 @@
+.preface {
+  position: relative;
+  max-height: 550px;
+  overflow: hidden;
+  .preface-bar {
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    line-height: 0;
+  }
+  img, picture {
+    width: 100%;
+  }
+}

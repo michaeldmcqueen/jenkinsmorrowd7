@@ -1,0 +1,16 @@
+.view-gallery {
+  .colorbox {
+    padding: 5px 10px 0px 0;
+    display: inline-block;
+    
+    @include breakpoint($phone) {
+     width: 49%;
+    }
+    @include breakpoint($med-phone, $no-query: '.no-mq') {
+     width: auto;
+    }
+  }
+  img {
+    @include border-radius(3px);
+  }
+}

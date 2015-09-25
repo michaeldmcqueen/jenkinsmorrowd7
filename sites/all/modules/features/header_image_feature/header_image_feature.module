@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Header Image Feature feature.
+ */
+
+include_once 'header_image_feature.features.inc';

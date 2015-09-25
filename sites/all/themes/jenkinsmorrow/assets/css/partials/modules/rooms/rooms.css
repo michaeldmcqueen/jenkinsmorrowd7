@@ -1,0 +1,97 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/2\.0\.0\/gems\/toolkit-1\.0\.0\/stylesheets\/toolkit\/_border-box\.scss}line{font-family:\000036}}
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/2\.0\.0\/gems\/toolkit-1\.0\.0\/stylesheets\/toolkit\/_fluid-media\.scss}line{font-family:\000034}}
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+
+/*
+$accent-one: #E6E6E6;
+$accent-two: #B3B3B3;
+$accent-three: #4D4D4D;
+$accent-four: #691C16;
+$body: #777;
+$headings: #6E1C1E;
+
+$color-one: #F5E08D; // Yellow
+$color-two: #6E1C1E; // Burgandy
+$color-three: rgb(150,202,45); // Green Lime
+$color-four: #F9CD87; // Lighter Yellow
+
+
+top menu: arial #48581c 12px
+main menu: robo #48581c 14px;
+quote h3: fancy font #654e2d 42px;
+quote p: roboto #b4a48d 16px;
+main content area p: robo #48581c 15px;
+footer p and a: robo #654e2d 13px;
+*/
+/* -- BREAKPOINTS -- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/orchardhill\.com\/local\/sites\/all\/themes\/orchardhill\/assets\/sass\/partials\/global\/_extendables\.scss}line{font-family:\0000314}}
+.clearfix:before, .clearfix:after {
+  display: table;
+  content: "";
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/orchardhill\.com\/local\/sites\/all\/themes\/orchardhill\/assets\/sass\/partials\/global\/_extendables\.scss}line{font-family:\0000319}}
+.clearfix:after {
+  clear: both;
+}
+
+/* -- BREAKPOINTS -- */
+/*
+$accent-one: #E6E6E6;
+$accent-two: #B3B3B3;
+$accent-three: #4D4D4D;
+$accent-four: #691C16;
+$body: #777;
+$headings: #6E1C1E;
+
+$color-one: #F5E08D; // Yellow
+$color-two: #6E1C1E; // Burgandy
+$color-three: rgb(150,202,45); // Green Lime
+$color-four: #F9CD87; // Lighter Yellow
+
+
+top menu: arial #48581c 12px
+main menu: robo #48581c 14px;
+quote h3: fancy font #654e2d 42px;
+quote p: roboto #b4a48d 16px;
+main content area p: robo #48581c 15px;
+footer p and a: robo #654e2d 13px;
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/orchardhill\.com\/local\/sites\/all\/themes\/orchardhill\/assets\/sass\/partials\/modules\/rooms\/rooms\.scss}line{font-family:\000035}}
+.view-rooms .views-row {
+  float: left;
+  width: 30%;
+  margin: 0 2% 20px 0;
+  height: 330px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/orchardhill\.com\/local\/sites\/all\/themes\/orchardhill\/assets\/sass\/partials\/modules\/rooms\/rooms\.scss}line{font-family:\0000311}}
+.view-rooms .views-row h4 a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 400;
+  color: #48581c;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/orchardhill\.com\/local\/sites\/all\/themes\/orchardhill\/assets\/sass\/partials\/modules\/rooms\/rooms\.scss}line{font-family:\0000318}}
+.view-rooms .views-row img {
+  display: block;
+  border: solid 5px #fff;
+  -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/orchardhill\.com\/local\/sites\/all\/themes\/orchardhill\/assets\/sass\/partials\/modules\/rooms\/rooms\.scss}line{font-family:\0000323}}
+.view-rooms .views-row p {
+  font-size: 16px;
+}

@@ -1,0 +1,27 @@
+/* -- BREAKPOINTS -- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amenfab\/public_html\/beta\/sites\/all\/themes\/amen\/sass\/partials\/modules\/portfolio\/portfolio\.scss}line{font-family:\000035}}
+.latest-work {
+  margin: 60px 0;
+}
+
+@media all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation: landscape) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amenfab\/public_html\/beta\/sites\/all\/themes\/amen\/sass\/partials\/modules\/portfolio\/portfolio\.scss}line{font-family:\0000311}}
+  .page-portfolio .portfolio-item {
+    float: left;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amenfab\/public_html\/beta\/sites\/all\/themes\/amen\/sass\/partials\/modules\/portfolio\/portfolio\.scss}line{font-family:\0000314}}
+  .page-portfolio .portfolio-item:nth-child(odd) {
+    margin-right: 15px;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amenfab\/public_html\/beta\/sites\/all\/themes\/amen\/sass\/partials\/modules\/portfolio\/portfolio\.scss}line{font-family:\0000322}}
+.node-project.view-mode-full .read-more-btn {
+  margin-bottom: 100px;
+  margin-top: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amenfab\/public_html\/beta\/sites\/all\/themes\/amen\/sass\/partials\/modules\/portfolio\/portfolio\.scss}line{font-family:\0000326}}
+.node-project.view-mode-full img {
+  box-shadow: 0 4px 5px rgba(1, 1, 1, 0.1);
+  -webkit-box-shadow: 0 4px 5px rgba(1, 1, 1, 0.1);
+}

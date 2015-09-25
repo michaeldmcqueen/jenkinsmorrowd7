@@ -1,0 +1,135 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/2\.0\.0\/gems\/toolkit-1\.0\.0\/stylesheets\/toolkit\/_border-box\.scss}line{font-family:\000036}}
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/2\.0\.0\/gems\/toolkit-1\.0\.0\/stylesheets\/toolkit\/_fluid-media\.scss}line{font-family:\000034}}
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* -- BREAKPOINTS -- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/global\/_functions\.scss}line{font-family:\0000313}}
+body:before {
+  content: 'mobile';
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background: #f00;
+  color: #fff;
+  padding: 10px;
+  z-index: 100000;
+}
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/global\/_functions\.scss}line{font-family:\0000313}}
+  body:before {
+    content: 'tablet';
+  }
+}
+@media (min-width: 980px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/global\/_functions\.scss}line{font-family:\0000313}}
+  body:before {
+    content: 'desktop';
+  }
+}
+@media (min-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/global\/_functions\.scss}line{font-family:\0000313}}
+  body:before {
+    content: 'lg-desktop';
+  }
+}
+
+/* -- BREAKPOINTS -- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/global\/_extendables\.scss}line{font-family:\0000314}}
+.clearfix:before, .clearfix:after {
+  display: table;
+  content: "";
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/global\/_extendables\.scss}line{font-family:\0000319}}
+.clearfix:after {
+  clear: both;
+}
+
+/* -- BREAKPOINTS -- */
+@media all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation: landscape) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/modules\/navigation\/nav\.scss}line{font-family:\000036}}
+  .mm-menu, #menu-original, .hidden-xs {
+    display: none;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/modules\/navigation\/nav\.scss}line{font-family:\0000310}}
+  nav.main-navigation .main-menu {
+    float: right;
+    margin: 10px 0 0 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/modules\/navigation\/nav\.scss}line{font-family:\0000314}}
+  nav.main-navigation ul {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    z-index: 1000;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/modules\/navigation\/nav\.scss}line{font-family:\0000319}}
+  nav.main-navigation ul li, nav.main-navigation ul li.leaf, nav.main-navigation ul li.collapsed {
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: static;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/modules\/navigation\/nav\.scss}line{font-family:\0000326}}
+  nav.main-navigation ul ul {
+    background: #fff;
+    padding: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/modules\/navigation\/nav\.scss}line{font-family:\0000327}}
+  nav.main-navigation ul ul:before {
+    width: 7em;
+    height: 7em;
+    border-radius: 0 0 2em 0;
+    margin: -2em 2.5em;
+    transform: rotate(45deg);
+    background: linear-gradient(-45deg, #000000 50%, transparent 50%);
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/modules\/navigation\/nav\.scss}line{font-family:\0000337}}
+  nav.main-navigation ul ul li {
+    display: block;
+    position: relative;
+    float: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/modules\/navigation\/nav\.scss}line{font-family:\0000344}}
+  nav.main-navigation ul ul li a {
+    font-size: 15px;
+    padding: 10px 30px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    border-bottom: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/modules\/navigation\/nav\.scss}line{font-family:\0000354}}
+  nav.main-navigation a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #2c3e50;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 17px;
+    padding: 12px 15px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/modules\/navigation\/nav\.scss}line{font-family:\0000364}}
+  nav.main-navigation a:hover {
+    color: #ee464c;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+}

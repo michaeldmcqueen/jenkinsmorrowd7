@@ -1,0 +1,31 @@
+/* -- BREAKPOINTS -- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/modules\/forms\/buttons\.scss}line{font-family:\000034}}
+input[type="submit"], #edit-submit {
+  /* Sassy Buttons - http://jaredhardy.com/sassy-buttons/ */
+}
+
+@media all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation: landscape) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/modules\/forms\/buttons\.scss}line{font-family:\0000311}}
+  .webform-client-form input[type="submit"] {
+    margin-left: 43%;
+  }
+}
+@media all and (min-width: 1220px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/modules\/forms\/buttons\.scss}line{font-family:\0000311}}
+  .webform-client-form input[type="submit"] {
+    margin-left: 33%;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/modules\/forms\/buttons\.scss}line{font-family:\0000323}}
+.ie8 .webform-client-form input[type="submit"], .ie7 .webform-client-form input[type="submit"] {
+  margin-left: 33%;
+}
+
+/* Contact Form */
+@media all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation: landscape) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/modules\/forms\/buttons\.scss}line{font-family:\0000331}}
+  #webform-client-form-2 input[type="submit"] {
+    margin-left: 23%;
+  }
+}

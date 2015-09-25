@@ -1,0 +1,57 @@
+/* -- BREAKPOINTS -- */
+/* Fix the width of the photo share box */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/modules\/social\/addthis\.scss}line{font-family:\000034}}
+.addthis_toolbox.addthis_default_style.addthis_32x32_style.addthis_overlay_toolbox {
+  width: 160px !important;
+}
+
+/* -- Addthis - Social Buttons -- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/global\/_mixins\.scss}line{font-family:\0000350}}
+.social-buttons:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/modules\/social\/addthis\.scss}line{font-family:\0000311}}
+.addthis_toolbox.addthis_default_style {
+  float: right;
+  width: 400px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/modules\/social\/addthis\.scss}line{font-family:\0000315}}
+.addthis_button_facebook_like {
+  width: 85px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/modules\/social\/addthis\.scss}line{font-family:\0000318}}
+.addthis_button_tweet {
+  width: 90px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/modules\/social\/addthis\.scss}line{font-family:\0000321}}
+.addthis_googleplus {
+  float: left;
+  width: 70px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/modules\/social\/addthis\.scss}line{font-family:\0000325}}
+.addthis_pinterest {
+  float: left;
+  width: 52px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/modules\/social\/addthis\.scss}line{font-family:\0000329}}
+.addthis_counter.addthis_pill_style a.addthis_button_expanded {
+  width: 39px !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/modules\/social\/addthis\.scss}line{font-family:\0000333}}
+.colorbox.init-colorbox-processed.cboxElement {
+  float: left;
+  margin: 0 25px 20px 0;
+  width: 30%;
+}

@@ -1,0 +1,7 @@
+.logo {
+  display: block;
+  text-align: center;
+  @include breakpoint($phone) {
+    padding-bottom: .5em;
+  }
+}

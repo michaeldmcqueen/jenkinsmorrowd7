@@ -1,0 +1,171 @@
+/* -- BREAKPOINTS -- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/styleguide\/type\/typography\.scss}line{font-family:\000035}}
+a:link, a:visited {
+  color: #2c3e50;
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/styleguide\/type\/typography\.scss}line{font-family:\000039}}
+a:hover, a:active {
+  color: #2c3e50;
+  text-decoration: underline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/styleguide\/type\/typography\.scss}line{font-family:\0000355}}
+h1, .page-title {
+  color: #2c3e50;
+  font-size: 50px;
+  margin: 0;
+}
+@media all and (max-width: 760px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/styleguide\/type\/typography\.scss}line{font-family:\0000355}}
+  h1, .page-title {
+    font-size: 50px;
+    margin: 0 0 15px;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/styleguide\/type\/typography\.scss}line{font-family:\0000366}}
+h2 {
+  color: #2c3e50;
+  font-family: 'helvetica', serif;
+  font-size: 38px;
+  margin: 0;
+}
+@media all and (max-width: 760px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/styleguide\/type\/typography\.scss}line{font-family:\0000366}}
+  h2 {
+    font-size: 30px;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/styleguide\/type\/typography\.scss}line{font-family:\0000376}}
+h3, h3.sub-title {
+  color: #2c3e50;
+  font-family: 'helvetica', serif;
+  font-size: 32px;
+  font-weight: 300;
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/styleguide\/type\/typography\.scss}line{font-family:\0000384}}
+h4 {
+  color: #2c3e50;
+  font-family: 'helvetica', serif;
+  font-size: 28px;
+  font-weight: 300;
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/styleguide\/type\/typography\.scss}line{font-family:\0000392}}
+h5 {
+  font-size: 22px;
+  margin: 0;
+  font-weight: 300;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/styleguide\/type\/typography\.scss}line{font-family:\0000398}}
+h6 {
+  margin: 0;
+  font-size: 18px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/styleguide\/type\/typography\.scss}line{font-family:\00003104}}
+p, span, label, select, div {
+  color: #414042;
+  font-family: 'helvetica', serif;
+  font-size: 18px;
+  line-height: 1.8;
+  font-weight: 300;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/styleguide\/type\/typography\.scss}line{font-family:\00003107}}
+li {
+  color: #414042;
+  font-family: 'helvetica', serif;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/styleguide\/type\/typography\.scss}line{font-family:\00003114}}
+p {
+  padding: 0;
+  margin: 0 0 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/styleguide\/type\/typography\.scss}line{font-family:\00003118}}
+ul li, ol li {
+  padding-bottom: 5px;
+  font-size: 16px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/styleguide\/type\/typography\.scss}line{font-family:\00003122}}
+p a {
+  color: #2c3e50;
+  font-family: 'helvetica', serif;
+  text-decoraton: underline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/styleguide\/type\/typography\.scss}line{font-family:\00003132}}
+.read-more-btn a {
+  background: #2c3e50;
+  padding: 10px 35px;
+  color: #2c3e50;
+  font-weight: 700;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/styleguide\/type\/typography\.scss}line{font-family:\00003141}}
+.read-more-btn a:hover {
+  background: #2c3e50;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/styleguide\/type\/typography\.scss}line{font-family:\00003149}}
+.read-more-link a {
+  padding: 15px 0;
+  color: #2c3e50;
+  font-weight: 700;
+  font-size: 16px;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/styleguide\/type\/typography\.scss}line{font-family:\00003163}}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+/* -- Pager -- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/styleguide\/type\/typography\.scss}line{font-family:\00003175}}
+.pager {
+  padding: 0;
+  margin: 20px 0;
+  text-align: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/styleguide\/type\/typography\.scss}line{font-family:\00003179}}
+.pager li {
+  display: inline-block;
+  list-style: none;
+  padding: 0 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/styleguide\/type\/typography\.scss}line{font-family:\00003186}}
+.pager li a {
+  color: #2c3e50;
+  text-decoration: none;
+  font-weight: 700;
+}

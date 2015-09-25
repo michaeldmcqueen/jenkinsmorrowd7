@@ -1,0 +1,116 @@
+nav {
+  padding: 0;
+  font-size: 95%;
+  @include breakpoint($tablet, $no-query: '.no-mq') {
+    font-size: 95%;
+  }
+  ul.menu {
+    margin: 0;
+    padding: 1em 0 0;
+    position: relative;
+    @include breakpoint($tablet, $no-query: '.no-mq') {
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      ul {
+        position: absolute;
+        text-align: left;
+        visibility:hidden;
+        top: 150%;
+        left: 0;
+        opacity: 0;
+        padding: 0em 0 !important;
+        margin: 0;
+        visibility: hidden;
+        transition:all .5s ease;
+        -webkit-transition:all .5s ease;
+        width: 200px;
+        box-shadow: 1px 1px 4px rgba(0,0,0,.5);
+        li {
+          padding: .5em 1.25em ;
+        }
+      }
+      li:hover {
+        ul {
+          z-index: 99;
+          background-color: darken($color-one, 5%);
+          top:110%;
+          left: 0;
+          opacity: 1;
+          visibility: visible;
+          li {
+            display: block;
+            &:hover {
+              background-color: darken($color-one, 10%);
+            }
+          }
+        }
+      }
+    }
+    ul {
+      padding: 0 1em;
+    }
+  }
+  li.leaf, li, li.expanded {
+    list-style: none;
+    padding: .5em;
+    margin: 0;
+    position: relative;
+    @include breakpoint($tablet, $no-query: '.no-mq') {
+      padding: .5em .4em;
+      font-size: 90%;
+    }
+    @include breakpoint($desktop) {
+      padding: .5em .75em;
+      font-size: 100%;
+    }
+    @include breakpoint($phone) {
+    border-bottom: 1px solid #ccc;
+      &.last {
+        border-bottom: 0;
+      }
+    }
+    li {
+      padding: 0;
+      font-size: 85%;
+      border-bottom: 0;
+    }
+    @include breakpoint($tablet, $no-query: '.no-mq') {
+      display: inline-block;
+    }
+  }
+  a, a:visited {
+    text-decoration: none;
+    text-transform: uppercase;
+   // font-weight: 700;
+    color: #474747;
+    &:hover {
+      color:#111;
+    }
+    &.active {
+      @include breakpoint($tablet, $no-query: '.no-mq') {
+        border-bottom: 2px solid #000;
+        padding-bottom: 1em;
+      }
+    }
+  }
+}
+
+.js {
+  nav {
+    ul.hide {
+      @include breakpoint($phone) {
+        display: none;
+      }
+    }
+  }
+}
+
+.menu-btn {
+  @include btn(#efefef, #000, #999, 3px, $small);
+  @include grad(#efefef, #ccc, $stop: 100%); 
+  width: 100%;
+  @include breakpoint($tablet, $no-query: '.no-mq') {
+    display: none;
+  }
+}

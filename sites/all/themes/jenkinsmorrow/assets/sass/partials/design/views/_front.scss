@@ -1,0 +1,123 @@
+.postscript {
+  @include clearfix;
+  padding-top: 2em;
+}
+//About Block
+.about-us-front{
+  padding: 2em;
+  position: relative;
+  &:before {
+      content: '';
+      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+26,ffffff+100&amp;0.9+26,0+100 */
+      background: -moz-linear-gradient(top,  rgba(255,255,255,0.9) 26%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(26%,rgba(255,255,255,0.9)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+      background: -webkit-linear-gradient(top,  rgba(255,255,255,0.9) 26%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+      background: -o-linear-gradient(top,  rgba(255,255,255,0.9) 26%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
+      background: -ms-linear-gradient(top,  rgba(255,255,255,0.9) 26%,rgba(255,255,255,0) 100%); /* IE10+ */
+      background: linear-gradient(to bottom,  rgba(255,255,255,0.9) 26%,rgba(255,255,255,0) 100%); /* W3C */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+      width: 110%;
+      height: 350px;
+      position: absolute;
+      left: -2em;
+      top: 0;
+      z-index: -1;
+    }
+    &:after {
+      content: '';
+      background: url('../images/about-post.jpg') no-repeat center center; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      width: 110%;
+      height: 450px;
+      position: absolute;
+      left: -2em;
+      top: 0;
+      z-index: -2;
+    }
+  @include breakpoint($tablet, $no-query: '.no-mq') {
+    height: 450px;
+    padding: 2em 2em 2em 0;
+    @include grid-span(6,1);
+    &:before {
+      content: '';
+      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+26,ffffff+100&amp;0.9+26,0+100 */
+      background: -moz-linear-gradient(top,  rgba(255,255,255,0.9) 26%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(26%,rgba(255,255,255,0.9)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+      background: -webkit-linear-gradient(top,  rgba(255,255,255,0.9) 26%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+      background: -o-linear-gradient(top,  rgba(255,255,255,0.9) 26%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
+      background: -ms-linear-gradient(top,  rgba(255,255,255,0.9) 26%,rgba(255,255,255,0) 100%); /* IE10+ */
+      background: linear-gradient(to bottom,  rgba(255,255,255,0.9) 26%,rgba(255,255,255,0) 100%); /* W3C */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+      width: 200%;
+      height: 350px;
+      position: absolute;
+      left: -50%;
+      top: 0;
+      z-index: -1;
+    }
+    &:after {
+      content: '';
+      background: url('../images/about-post.jpg') no-repeat center center; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      width: 200%;
+      height: 450px;
+      position: absolute;
+      left: -50%;
+      top: 0;
+      z-index: -2;
+    }
+  }
+}
+
+// Procedure Block
+#block-views-our-procedures-block-1 {
+  padding: 2em;
+  position: relative;
+  @include breakpoint($tablet, $no-query: '.no-mq') {
+    height: 450px;
+    padding: 2em 2em 2em;
+    @include grid-span(6,7);
+    &:after {
+      content: '';
+      background: #fff;
+      width: 200%;
+      height: 450px;
+      position: absolute;
+      right: -100%;
+      top: 0;
+      z-index: -1;
+    }
+  }
+  .views-row {
+    padding: .5em 0;
+    border-top: 1px solid #979797;
+    @include breakpoint($tablet, $no-query: '.no-mq') {
+      float: left;
+      width: 50%;
+    }
+    h6 {
+      margin: 0;
+      font-weight: normal;
+      color: inherit;
+      a {
+        overflow: hidden;
+        display: block;
+        color: inherit;
+      }
+      &:before {
+        content: '';
+        background: url('../images/triangle.png') no-repeat;
+        width: 7px;
+        height: 7px;
+        float: left;
+        margin: 4px 1em 0 1em;
+      }
+    }
+  }
+}

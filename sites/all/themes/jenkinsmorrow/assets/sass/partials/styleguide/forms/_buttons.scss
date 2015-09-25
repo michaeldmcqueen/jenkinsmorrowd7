@@ -1,0 +1,6 @@
+input[type="submit"] {
+  @include btn(#0B8253, #fff, #098050, 4px, $normal);
+  @include grad(#0B8253, #12C17B, $stop: 100%); 
+  box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.20), inset 0px 1px 0px 0px #FFFFFF;
+
+}

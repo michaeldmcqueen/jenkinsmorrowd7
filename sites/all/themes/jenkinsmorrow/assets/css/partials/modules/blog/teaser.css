@@ -1,0 +1,86 @@
+/* -- BREAKPOINTS -- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/modules\/blog\/teaser\.scss}line{font-family:\000037}}
+main#main .view-blog img {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/modules\/blog\/teaser\.scss}line{font-family:\0000310}}
+main#main .view-blog p.read-me a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/modules\/blog\/teaser\.scss}line{font-family:\0000318}}
+main#main .ds-col-one.cols {
+  width: 25%;
+  float: left;
+}
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/modules\/blog\/teaser\.scss}line{font-family:\0000318}}
+  main#main .ds-col-one.cols {
+    width: 32.20339%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0%;
+    clear: none;
+  }
+}
+@media (min-width: 980px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/modules\/blog\/teaser\.scss}line{font-family:\0000318}}
+  main#main .ds-col-one.cols {
+    width: 32.20339%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0%;
+    clear: none;
+  }
+}
+@media (min-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/modules\/blog\/teaser\.scss}line{font-family:\0000318}}
+  main#main .ds-col-one.cols {
+    width: 23.72881%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0%;
+    clear: none;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/modules\/blog\/teaser\.scss}line{font-family:\0000332}}
+main#main .ds-col-two.cols {
+  width: 70%;
+  float: right;
+}
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/modules\/blog\/teaser\.scss}line{font-family:\0000332}}
+  main#main .ds-col-two.cols {
+    width: 66.10169%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
+}
+@media (min-width: 980px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/modules\/blog\/teaser\.scss}line{font-family:\0000332}}
+  main#main .ds-col-two.cols {
+    width: 66.10169%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
+}
+@media (min-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/modules\/blog\/teaser\.scss}line{font-family:\0000332}}
+  main#main .ds-col-two.cols {
+    width: 74.57627%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
+}

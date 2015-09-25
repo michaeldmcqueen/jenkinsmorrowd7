@@ -1,0 +1,93 @@
+; Base Profile - drupal-org.make
+core = 7.x
+api = 2
+
+; Defaults
+defaults[projects][subdir] = "contrib"
+
+; Contrib Modules
+projects[ctools][version] = "1.4"
+projects[token][version] = "1.5"
+
+projects[admin_menu][version] = "3.0-rc4"
+projects[admin_views][version] = "1.3"
+projects[auto_nodetitle][version] = "1.x-dev"
+projects[backup_migrate][version] = "3.0"
+projects[block_class][version] = "2.1"
+projects[blockify][version] = "1.2"
+projects[breakpoints][version] = "1.2"
+projects[browserclass][version] = "1.7"
+
+projects[ckeditor][version] = "1.15"
+projects[conditional_styles][version] = "2.2"
+projects[context][version] = "3.2"
+projects[custom_formatters][version] = "2.2"
+projects[date][version] = "2.8"
+projects[date_popup_authored][version] = "1.1"
+projects[delta][version] = "3.0-beta11"
+projects[diff][version] = "3.2"
+projects[ds][version] = "2.6"
+projects[email_registration][version] = "1.2"
+projects[email][version] = "1.3"
+projects[entity][version] = "1.5"
+projects[entitycache][version] = "1.2"
+projects[entityreference][version] = "1.1"
+projects[features][version] = "2.2"
+projects[features_extra][version] = "1.0-beta1"
+projects[features_override][version] = "2.0-rc2"
+projects[features_user_role_plus][version] = "1.0"
+projects[fences][version] = "1.x-dev"
+projects[field_group][version] = "1.4"
+projects[filefield_paths][version] = "1.0-beta4"
+projects[file_entity][version] = "2.0-alpha3"
+projects[google_analytics][version] = "2.0"
+projects[honeypot][version] = "1.17"
+projects[image_url_formatter][version] = "1.4"
+projects[inline_entity_form][version] = "1.5"
+projects[insert][version] = "1.3"
+projects[invisimail][version] = "1.x-dev"
+projects[jquery_update][version] = "2.x-dev"
+projects[libraries][version] = "2.2"
+projects[link][version] = "1.2"
+projects[logintoboggan][version] = "1.4"
+projects[logintoboggan][patch][] = "https://drupal.org/files/logintoboggan-drupalcommerce_cart_userhookcompat-1970242-4.patch"
+projects[magic][version] = "1.5"
+projects[menu_attributes][version] = "1.x-dev"
+projects[menu_block][version] = "2.4"
+projects[metatag][version] = "1.0-rc2"
+projects[module_filter][version] = "2.x-dev"
+projects[mollom][version] = "2.10"
+projects[pathauto][version] = "1.2"
+projects[picture][version] = "1.5"
+projects[publish_date][version] = "1.1"
+projects[realname][version] = "1.2"
+projects[redirect][version] = "1.0-rc1"
+projects[role_delegation][version] = "1.x-dev"
+projects[rules][version] = "2.7"
+projects[save_draft][version] = "1.4"
+projects[simple_pass_reset][version] = "1.4"
+projects[special_menu_items][version] = "2.0"
+projects[smart_trim][version] = "1.4"
+projects[speedy][version] = "1.11"
+projects[taxonomy_menu][version] = "1.5"
+projects[strongarm][version] = "2.0"
+
+projects[transliteration][version] = "3.2"
+projects[userprotect][version] = "1.0"
+projects[views][version] = "3.8"
+projects[views_bulk_operations][version] = "3.2"
+projects[views_content_cache][version] = "3.0-alpha2"
+projects[webform_reply_to][version] = "1.0"
+projects[webform][version] = "3.20"
+projects[weight][version] = "2.3"
+projects[xmlsitemap][version] = "2.0"
+
+;Developer Modules
+
+;Libraries
+libraries[ckeditor][download][type] = get
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.3.4/ckeditor_4.3.4_full.zip"
+libraries[ckeditor][destination] = "modules/contrib/ckeditor"
+libraries[ckeditor][directory_name] = "ckeditor"
+
+; Themes

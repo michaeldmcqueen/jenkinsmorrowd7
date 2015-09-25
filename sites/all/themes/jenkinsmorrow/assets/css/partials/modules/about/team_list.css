@@ -1,0 +1,31 @@
+/*
+$accent-one: #E6E6E6;
+$accent-two: #B3B3B3;
+$accent-three: #4D4D4D;
+$accent-four: #691C16;
+$body: #777;
+$headings: #6E1C1E;
+
+$color-one: #F5E08D; // Yellow
+$color-two: #6E1C1E; // Burgandy
+$color-three: rgb(150,202,45); // Green Lime
+$color-four: #F9CD87; // Lighter Yellow
+
+
+top menu: arial #48581c 12px
+main menu: robo #48581c 14px;
+quote h3: fancy font #654e2d 42px;
+quote p: roboto #b4a48d 16px;
+main content area p: robo #48581c 15px;
+footer p and a: robo #654e2d 13px;
+*/
+/* -- BREAKPOINTS -- */
+/*
+.about {
+	margin-top: 40px;
+
+	h2 {
+		padding-bottom: 15px;
+	}
+}
+*/

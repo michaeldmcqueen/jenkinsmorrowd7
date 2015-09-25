@@ -1,0 +1,106 @@
+/* -- BREAKPOINTS -- */
+@media all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation: landscape) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amenfab\/public_html\/beta\/sites\/all\/themes\/amen\/sass\/partials\/modules\/article\/article_list\.scss}line{font-family:\000039}}
+  .page-blog #main:before, .node-type-blog-post #main:before {
+    /*  background: url('../images/blog.png') no-repeat;
+      content: '';
+      position: absolute;
+      right: 0;
+      top: 0px;
+      height: 230px;
+      width: 114px;
+      z-index: -99; */
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amenfab\/public_html\/beta\/sites\/all\/themes\/amen\/sass\/partials\/global\/_mixins\.scss}line{font-family:\0000346}}
+.view-blog .view-content:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amenfab\/public_html\/beta\/sites\/all\/themes\/amen\/sass\/partials\/modules\/article\/article_list\.scss}line{font-family:\0000327}}
+.view-blog .views-row {
+  float: left;
+  margin-bottom: 120px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amenfab\/public_html\/beta\/sites\/all\/themes\/amen\/sass\/partials\/global\/_mixins\.scss}line{font-family:\0000346}}
+.view-blog .views-row:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amenfab\/public_html\/beta\/sites\/all\/themes\/amen\/sass\/partials\/modules\/article\/article_list\.scss}line{font-family:\0000334}}
+.post-date {
+  background: #3a3a3a;
+  padding: 16px 18px 0;
+  font-size: 24px;
+  height: 72px;
+  color: #fff;
+  text-align: center;
+  line-height: 1;
+}
+@media all and (max-width: 760px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amenfab\/public_html\/beta\/sites\/all\/themes\/amen\/sass\/partials\/modules\/article\/article_list\.scss}line{font-family:\0000334}}
+  .post-date {
+    width: 100px;
+    float: left;
+  }
+}
+@media all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation: landscape) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amenfab\/public_html\/beta\/sites\/all\/themes\/amen\/sass\/partials\/modules\/article\/article_list\.scss}line{font-family:\0000334}}
+  .post-date {
+    margin-top: 10px;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amenfab\/public_html\/beta\/sites\/all\/themes\/amen\/sass\/partials\/modules\/article\/article_list\.scss}line{font-family:\0000351}}
+.year {
+  background: #0A0A0A;
+  text-align: center;
+  line-height: 1;
+  padding: 6px 0;
+  font-size: 19px;
+  color: #FFF;
+  font-weight: 800;
+}
+@media all and (max-width: 760px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amenfab\/public_html\/beta\/sites\/all\/themes\/amen\/sass\/partials\/modules\/article\/article_list\.scss}line{font-family:\0000351}}
+  .year {
+    width: 100px;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amenfab\/public_html\/beta\/sites\/all\/themes\/amen\/sass\/partials\/modules\/article\/article_list\.scss}line{font-family:\0000363}}
+.blog-title {
+  line-height: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amenfab\/public_html\/beta\/sites\/all\/themes\/amen\/sass\/partials\/modules\/article\/article_list\.scss}line{font-family:\0000365}}
+.blog-title a {
+  color: #231f20;
+  font-family: "futura-pt-1","futura-pt-2",sans-serif;
+  font-size: 40px;
+  font-weight: normal;
+  margin: 0;
+  text-decoration: none;
+}
+
+@media all and (max-width: 760px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amenfab\/public_html\/beta\/sites\/all\/themes\/amen\/sass\/partials\/modules\/article\/article_list\.scss}line{font-family:\0000376}}
+  .node-team-member.view-mode-blog_author_teaser img {
+    width: 100px;
+  }
+}
+@media all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation: landscape) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amenfab\/public_html\/beta\/sites\/all\/themes\/amen\/sass\/partials\/modules\/article\/article_list\.scss}line{font-family:\0000376}}
+  .node-team-member.view-mode-blog_author_teaser img {
+    margin-top: 5px;
+  }
+}

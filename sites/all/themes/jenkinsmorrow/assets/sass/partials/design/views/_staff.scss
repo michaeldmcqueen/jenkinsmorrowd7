@@ -1,0 +1,38 @@
+.staff {
+  @include clearfix;
+  .staff-member {
+    padding: 1em 0;
+    @include breakpoint($tablet, $no-query: '.no-mq') {
+      float: left;
+      width: 33%;
+      &:nth-child(4n+1) {
+         padding: 0 1em 1em 0;
+      }
+      &:nth-child(4n+2) {
+         padding: 0 .5em 1em .5em;
+      }
+      &:nth-child(4n+3) {
+         padding: 0 0 1em 1em;
+      }
+    }
+  }
+  img {
+    width: 100%;
+    @include breakpoint($med-phone) {
+      width: 25%;
+      float: left;
+      padding-right: 1em;
+    }
+    @include breakpoint($tablet, $no-query: '.no-mq') {
+      width: 100%;
+    }
+  }
+  h4 {
+    margin-bottom: .25em;
+  }
+  h6 {
+    margin-top: 0;
+    color: inherit;
+    font-size: 110%;
+  }
+}

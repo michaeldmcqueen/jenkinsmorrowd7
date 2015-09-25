@@ -1,0 +1,14 @@
+footer {
+  background-color: $footer-bg;
+  color: #fff;
+  padding: 2em 0;
+  @include clearfix;
+  h6 {
+    color: #fff;
+    margin: 0 0 .5em;
+  }
+  p {
+    color: #fff;
+    margin: 0;
+  }
+}

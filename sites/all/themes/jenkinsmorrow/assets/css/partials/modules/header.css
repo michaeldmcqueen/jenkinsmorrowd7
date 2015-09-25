@@ -1,0 +1,96 @@
+/* -- BREAKPOINTS -- */
+/*------------------------------------------ 
+	Header Wrapper
+------------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/modules\/header\.scss}line{font-family:\000039}}
+#wrapper--header-image {
+  background: url("../images/header02.jpg") no-repeat center center;
+  height: 610px;
+  margin: -140px auto 10px auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: -100;
+  width: 100%;
+  position: relative;
+}
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/modules\/header\.scss}line{font-family:\000039}}
+  #wrapper--header-image {
+    height: 410px;
+  }
+}
+@media (min-width: 980px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/modules\/header\.scss}line{font-family:\000039}}
+  #wrapper--header-image {
+    height: 510px;
+  }
+}
+@media (min-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/modules\/header\.scss}line{font-family:\000039}}
+  #wrapper--header-image {
+    max-width: 1200px;
+    height: 610px;
+  }
+}
+
+/*------------------------------------------ 
+	Header Logo
+------------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/modules\/header\.scss}line{font-family:\0000341}}
+div#wrapper--header {
+  background: rgba(255, 255, 255, 0.9);
+  height: 140px;
+  padding: 20px 0 0 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/modules\/header\.scss}line{font-family:\0000346}}
+body.front div#wrapper--header {
+  background: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/modules\/header\.scss}line{font-family:\0000350}}
+div.logo-section {
+  width: 138px;
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/modules\/header\.scss}line{font-family:\0000353}}
+div.logo-section h1.site-name a {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  background: url("../images/icons/logo.png") no-repeat 0 0;
+  display: block;
+  height: 93px;
+}
+
+/*------------------------------------------ 
+	Mobile Menu Bar
+------------------------------------------*/
+@media all and (max-width: 760px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/modules\/header\.scss}line{font-family:\0000369}}
+  .mobile-bar {
+    position: absolute;
+    height: 40px;
+    z-index: 222;
+    width: 100%;
+    left: 0;
+  }
+}
+@media all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation: landscape) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/modules\/header\.scss}line{font-family:\0000369}}
+  .mobile-bar {
+    display: none;
+  }
+}
+
+/*------------------------------------------ 
+	Menu Wrap
+------------------------------------------*/
+@media all and (max-width: 760px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brent\/VS\/drupalsandbox\.com\/local\/sites\/all\/themes\/chloe\/assets\/sass\/partials\/modules\/header\.scss}line{font-family:\0000387}}
+  .menu-wrap {
+    margin-bottom: 40px;
+  }
+}

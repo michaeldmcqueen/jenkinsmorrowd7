@@ -1,0 +1,21 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: $site-bg;
+  border-top: 5px solid $color-two;
+  overflow-x: hidden;
+}
+.wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1em;
+  @include breakpoint($tablet, $no-query: '.no-mq') {
+    padding: 0 2em;
+  }
+}

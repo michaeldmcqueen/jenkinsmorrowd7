@@ -1,0 +1,15 @@
+header.site-header {
+  @include clearfix;
+  padding: 2em 0 1em;
+}
+
+.logo {
+  @include breakpoint($tablet, $no-query: '.no-mq') {
+    @include grid-span(4,1);
+  }
+}
+nav.main-navigation {
+  @include breakpoint($tablet, $no-query: '.no-mq') {
+    @include grid-span(7,6);
+  }
+}

@@ -1,0 +1,23 @@
+div.messages {
+  background-position: 16px 14px;
+  background-repeat: no-repeat;
+  border: 0;
+  line-height: 1;
+  margin: 1em 0;
+  padding: 1em 1em 1em 3em;
+  font-size: 120%;
+  color: #fff;
+  border-radius: 3px;
+  &.warning {
+    background-color: $warning;
+    background-image: url(../images/warning.png);
+  }
+  &.status {
+    background-color: $valid;
+    background-image: url(../images/success.png);
+  }
+  &.error {
+    background-color: $error;
+    background-image: url(../images/error.png);
+  }
+}

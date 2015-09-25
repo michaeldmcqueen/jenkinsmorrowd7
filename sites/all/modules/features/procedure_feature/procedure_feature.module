@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Procedure Feature feature.
+ */
+
+include_once 'procedure_feature.features.inc';
