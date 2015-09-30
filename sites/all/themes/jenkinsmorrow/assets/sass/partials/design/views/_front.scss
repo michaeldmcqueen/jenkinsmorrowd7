@@ -4,18 +4,18 @@
 }
 //About Block
 .about-us-front{
-  padding: 2em;
+  padding: 2em 2em 8em;
   position: relative;
+  margin: 0 -1em;
+  overflow: hidden;
+  @include breakpoint($tablet, $no-query: '.no-mq') {
+    padding: 2em;
+    margin: 0;
+    overflow: visible;
+  }
   &:before {
       content: '';
-      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+26,ffffff+100&amp;0.9+26,0+100 */
-      background: -moz-linear-gradient(top,  rgba(255,255,255,0.9) 26%, rgba(255,255,255,0) 100%); /* FF3.6+ */
-      background: -webkit-gradient(linear, left top, left bottom, color-stop(26%,rgba(255,255,255,0.9)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
-      background: -webkit-linear-gradient(top,  rgba(255,255,255,0.9) 26%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
-      background: -o-linear-gradient(top,  rgba(255,255,255,0.9) 26%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
-      background: -ms-linear-gradient(top,  rgba(255,255,255,0.9) 26%,rgba(255,255,255,0) 100%); /* IE10+ */
-      background: linear-gradient(to bottom,  rgba(255,255,255,0.9) 26%,rgba(255,255,255,0) 100%); /* W3C */
-      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+      @include grad(rgba(255,255,255,1), rgba(255,255,255,0.5),90%);
       width: 110%;
       height: 350px;
       position: absolute;
@@ -43,16 +43,9 @@
     @include grid-span(6,1);
     &:before {
       content: '';
-      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+26,ffffff+100&amp;0.9+26,0+100 */
-      background: -moz-linear-gradient(top,  rgba(255,255,255,0.9) 26%, rgba(255,255,255,0) 100%); /* FF3.6+ */
-      background: -webkit-gradient(linear, left top, left bottom, color-stop(26%,rgba(255,255,255,0.9)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
-      background: -webkit-linear-gradient(top,  rgba(255,255,255,0.9) 26%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
-      background: -o-linear-gradient(top,  rgba(255,255,255,0.9) 26%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
-      background: -ms-linear-gradient(top,  rgba(255,255,255,0.9) 26%,rgba(255,255,255,0) 100%); /* IE10+ */
-      background: linear-gradient(to bottom,  rgba(255,255,255,0.9) 26%,rgba(255,255,255,0) 100%); /* W3C */
-      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+       @include grad(rgba(255,255,255,0.95), rgba(255,255,255,0),90%);
       width: 200%;
-      height: 350px;
+      height: 450px;
       position: absolute;
       left: -50%;
       top: 0;
@@ -77,11 +70,11 @@
 
 // Procedure Block
 #block-views-our-procedures-block-1 {
-  padding: 2em;
+  padding: 1em;
   position: relative;
   @include breakpoint($tablet, $no-query: '.no-mq') {
     height: 450px;
-    padding: 2em 2em 2em;
+    padding: 2em 2em;
     @include grid-span(6,7);
     &:after {
       content: '';
@@ -97,7 +90,7 @@
   .views-row {
     padding: .5em 0;
     border-top: 1px solid #979797;
-    @include breakpoint($tablet, $no-query: '.no-mq') {
+    @include breakpoint($lg-desktop, $no-query: '.no-mq') {
       float: left;
       width: 50%;
     }

@@ -5,11 +5,12 @@
     @include border-radius(3px);
     padding: 1em;
     margin-top: 1em;
+    margin-bottom: 2em;
     @include breakpoint($tablet, $no-query: '.no-mq') {
       @include grid-span(3,10);
       margin-top: -11em;
       position: relative;
-      margin-bottom: 1em;
+      margin-bottom: 2em;
       margin-left: 2em;
     }
     h2 {

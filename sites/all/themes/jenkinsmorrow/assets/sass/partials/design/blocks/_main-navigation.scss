@@ -11,9 +11,10 @@ nav {
     clear: both;
     background: #DEDEDE;
     @include breakpoint($tablet, $no-query: '.no-mq') {
-      text-align: center;
+      text-align: right;
       margin: 0;
       padding: 0;
+      background: none;
       ul {
         position: absolute;
         text-align: left;
@@ -88,7 +89,6 @@ nav {
   a, a:visited {
     text-decoration: none;
     text-transform: uppercase;
-   // font-weight: 700;
     color: #474747;
     display: block;
     @include breakpoint($tablet, $no-query: '.no-mq') {
@@ -97,13 +97,6 @@ nav {
     &:hover {
       color:#111;
     }
-    // &.active {
-    //   @include breakpoint($tablet, $no-query: '.no-mq') {
-    //     border-bottom: 2px solid #000;
-    //     padding-bottom: 1em;
-
-    //   }
-    // }
   }
 }
 
