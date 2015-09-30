@@ -3,8 +3,8 @@
     <!-- Logo -->
     <a href="/">
     <picture class="logo">
-      <source type="image/svg+xml" srcset="/sites/all/themes/jenkinsmorrow/assets/images/logos/logo.svg">
-      <img src="/sites/all/themes/jenkinsmorrow/assets/images/logos/logo.png" alt="Jenkins & Morrow">
+      <source type="image/svg+xml" srcset="<?php print $GLOBALS['base_url'] . '/' . drupal_get_path('theme', 'jenkinsmorrow'); ?>/assets/images/logos/logo.svg">
+      <img src="<?php print $GLOBALS['base_url'] . '/' . drupal_get_path('theme', 'jenkinsmorrow'); ?>/assets/images/logos/logo.png" alt="Jenkins & Morrow">
     </picture>
   </a>
   <!-- Main Navigation -->
@@ -20,8 +20,8 @@
 <?php if ($page['preface']): ?>
   <div class="preface cleafix">
     <picture class="preface-bar">
-      <source type="image/svg+xml" srcset="/sites/all/themes/jenkinsmorrow/assets/images/preface-bar.svg">
-      <img src="/sites/all/themes/jenkinsmorrow/assets/images/preface-bar.png" alt="Jenkins & Morrow">
+      <source type="image/svg+xml" srcset="<?php print $GLOBALS['base_url'] . '/' . drupal_get_path('theme', 'jenkinsmorrow'); ?>/assets/images/preface-bar.svg">
+      <img src="<?php print $GLOBALS['base_url'] . '/' . drupal_get_path('theme', 'jenkinsmorrow'); ?>/assets/images/preface-bar.png" alt="Jenkins & Morrow">
     </picture>
       <?php print render($page['preface']); ?>
   </div>
