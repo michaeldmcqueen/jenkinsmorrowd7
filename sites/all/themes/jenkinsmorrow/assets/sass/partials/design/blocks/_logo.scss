@@ -3,5 +3,7 @@
   text-align: center;
   @include breakpoint($phone) {
     padding-bottom: .5em;
+    float: left;
+    width: 75%;
   }
 }

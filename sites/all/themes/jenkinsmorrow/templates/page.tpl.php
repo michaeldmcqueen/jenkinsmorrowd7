@@ -1,7 +1,7 @@
 <header role="banner" class="site-header">
   <div class="wrap">
     <!-- Logo -->
-    <a href="/">
+    <a href="<?php print $GLOBALS['base_url'] . '/'; ?>" title="Jenkins and Morrow">
     <picture class="logo">
       <source type="image/svg+xml" srcset="<?php print $GLOBALS['base_url'] . '/' . drupal_get_path('theme', 'jenkinsmorrow'); ?>/assets/images/logos/logo.svg">
       <img src="<?php print $GLOBALS['base_url'] . '/' . drupal_get_path('theme', 'jenkinsmorrow'); ?>/assets/images/logos/logo.png" alt="Jenkins & Morrow">

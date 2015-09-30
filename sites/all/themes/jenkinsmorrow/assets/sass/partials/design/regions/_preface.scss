@@ -1,14 +1,22 @@
 .preface {
   position: relative;
-  max-height: 550px;
+  max-height: 450px;
   overflow: hidden;
   .preface-bar {
     position: absolute;
-    bottom: 0;
+    bottom: 6px;
     z-index: 1;
     line-height: 0;
+    width: 101%;
+    @include breakpoint($tablet, $no-query: '.no-mq') {
+      bottom: -1px;
+    }
   }
   img, picture {
     width: 100%;
   }
+}
+
+.front .preface {
+  max-height: 550px;
 }
