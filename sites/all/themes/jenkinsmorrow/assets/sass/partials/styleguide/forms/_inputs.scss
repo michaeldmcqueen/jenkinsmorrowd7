@@ -11,3 +11,9 @@ input[type="text"], input[type="email"], input[type="name"], input[type="passwor
     outline: none;
   }
 }
+
+.form-checkboxes .form-type-checkbox  {
+  display: inline-block;
+  margin: 0;
+  padding-right: .5em;
+}
